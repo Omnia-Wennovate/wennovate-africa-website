@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   description: 'Transforming businesses through sustainable innovation, entrepreneurship support, and strategic development. Discover our sustainable business solutions.',
   keywords: ['sustainability', 'entrepreneurship', 'business innovation', 'consulting', 'development', 'research'],
   authors: [{ name: 'WENNOVATE' }],
-  metadataBase: new URL('https://wennovate.com'),
+  metadataBase: new URL('https://www.wennovate.africa'),
   openGraph: {
     title: 'WENNOVATE | System • Strategy • Sustainability',
     description: 'Transform your business with sustainable innovation and strategic consulting',
