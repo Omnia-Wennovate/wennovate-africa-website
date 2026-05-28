@@ -189,7 +189,7 @@ export function Hero() {
 
               <motion.div animate={{ y: [0, -12, 0] }} transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
                 className="relative bg-white dark:bg-white rounded-3xl p-10 md:p-14 shadow-2xl shadow-slate-200/60 dark:shadow-emerald/10 border border-slate-100 dark:border-emerald/20">
-                <Image src="/images/wennovate-logo.png" alt="WENNOVATE" width={400} height={160} className="w-full max-w-[320px] h-auto object-contain mx-auto" priority />
+                <Image src="/images/wennovate-logo-normal-w.png" alt="WENNOVATE" width={400} height={160} className="w-full max-w-[320px] h-auto object-contain mx-auto" priority />
                 <div className="absolute top-4 left-4 w-2 h-2 rounded-full bg-emerald/30" />
                 <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-sapphire/30" />
                 <div className="absolute bottom-4 left-4 w-2 h-2 rounded-full bg-gold/30" />

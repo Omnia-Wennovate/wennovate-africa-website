@@ -17,7 +17,7 @@ export function Footer() {
     { icon: Facebook, href: '#', label: 'Facebook' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:wennovate2021@gmail.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:info@omniatravel.com', label: 'Email' },
   ]
 
   return (
@@ -44,11 +44,11 @@ export function Footer() {
                 </div>
                 <span className="text-sm">+251 96 744 6447</span>
               </a>
-              <a href="mailto:wennovate2021@gmail.com" className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors duration-300 group">
+              <a href="mailto:info@omniatravel.com" className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors duration-300 group">
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-white/15 transition-colors">
                   <Mail size={14} className="text-emerald" />
                 </div>
-                <span className="text-sm">wennovate2021@gmail.com</span>
+                <span className="text-sm">info@omniatravel.com</span>
               </a>
             </div>
           </motion.div>
