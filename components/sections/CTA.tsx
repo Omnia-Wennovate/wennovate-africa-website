@@ -47,14 +47,14 @@ export function CTA() {
 
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.3 }} className="grid md:grid-cols-2 gap-4 mb-12">
-              <motion.a href="mailto:wennovate2021@gmail.com" whileHover={{ scale: 1.03, y: -3 }} whileTap={{ scale: 0.98 }}
+              <motion.a href="mailto:info@omniatravel.com" whileHover={{ scale: 1.03, y: -3 }} whileTap={{ scale: 0.98 }}
                 className="flex items-center gap-4 p-5 bg-slate-50 dark:bg-white/5 rounded-2xl border border-slate-100 dark:border-white/10 hover:border-emerald/30 hover:bg-emerald/5 dark:hover:bg-emerald/10 transition-all duration-400 group">
                 <div className="w-12 h-12 rounded-xl bg-emerald/10 flex items-center justify-center group-hover:bg-emerald/20 transition-colors">
                   <Mail size={22} className="text-emerald" />
                 </div>
                 <div className="text-left">
                   <p className="text-xs text-slate-400 uppercase tracking-wider font-medium">Email us</p>
-                  <p className="text-slate-700 dark:text-slate-200 font-semibold group-hover:text-slate-900 dark:group-hover:text-white transition-colors">wennovate2021@gmail.com</p>
+                  <p className="text-slate-700 dark:text-slate-200 font-semibold group-hover:text-slate-900 dark:group-hover:text-white transition-colors">info@omniatravel.com</p>
                 </div>
               </motion.a>
 
@@ -72,7 +72,7 @@ export function CTA() {
 
             <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.4 }} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.a href="mailto:wennovate2021@gmail.com" whileHover={{ scale: 1.04, y: -2 }} whileTap={{ scale: 0.97 }}
+              <motion.a href="mailto:info@omniatravel.com" whileHover={{ scale: 1.04, y: -2 }} whileTap={{ scale: 0.97 }}
                 className="group relative px-10 py-4 bg-slate-900 dark:bg-gradient-to-r dark:from-emerald dark:to-sapphire text-white dark:text-navy rounded-2xl font-semibold text-lg overflow-hidden shadow-xl shadow-slate-900/15 dark:shadow-emerald/20 hover:bg-slate-800 transition-all duration-300 btn-magnetic">
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   Start Your Project

@@ -93,13 +93,13 @@ export function Header() {
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
             className="relative"
           >
-            <div className="dark:bg-white dark:rounded-lg dark:px-3 dark:py-1.5">
+            <div className="bg-white rounded-lg px-3 py-1.5">
               <Image
-                src="/images/wennovate-logo.png"
+                src="/images/wennovate-logo-lines.png"
                 alt="WENNOVATE"
-                width={180}
-                height={48}
-                className="h-10 w-auto object-contain"
+                width={220}
+                height={58}
+                className="h-11 w-auto object-contain"
                 priority
               />
             </div>

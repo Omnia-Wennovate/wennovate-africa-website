@@ -31,8 +31,8 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }} transition={{ duration: 0.7 }} className="lg:col-span-2">
-            <div className="mb-6 inline-block bg-white rounded-lg px-3 py-1.5">
-              <Image src="/images/wennovate-logo.png" alt="WENNOVATE" width={160} height={44} className="h-9 w-auto object-contain" />
+            <div className="mb-6 inline-block bg-white rounded-lg px-3 py-2">
+              <Image src="/images/wennovate-logo-lines.png" alt="WENNOVATE" width={200} height={55} className="h-12 w-auto object-contain" />
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed max-w-sm">
               Transforming businesses through sustainable innovation, strategic entrepreneurship, and forward-thinking development.
