@@ -87,7 +87,7 @@ export function Footer() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-4 text-center md:text-left text-sm text-slate-500">
-            <p>&copy; {currentYear} WENNOVATE. All rights reserved. Powered by WENA SIRAJ CONSULTANT.</p>
+            <p>&copy; {currentYear} WENNOVATE. All rights reserved. Powered by Wennovate Consult PLC.</p>
             <div className="flex justify-center md:justify-end gap-6">
               <a href="#" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-slate-300 transition-colors">Terms of Service</a>
