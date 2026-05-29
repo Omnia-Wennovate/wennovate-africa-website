@@ -93,16 +93,14 @@ export function Header() {
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
             className="relative"
           >
-            <div className="bg-white rounded-lg px-3 py-1.5">
-              <Image
-                src="/images/wennovate-logo-lines.png"
-                alt="WENNOVATE"
-                width={220}
-                height={58}
-                className="h-11 w-auto object-contain"
-                priority
-              />
-            </div>
+            <Image
+              src="/images/wennovate-logo-final.png"
+              alt="WENNOVATE"
+              width={220}
+              height={58}
+              className="h-12 w-auto object-contain"
+              priority
+            />
           </motion.div>
         </motion.a>
 
